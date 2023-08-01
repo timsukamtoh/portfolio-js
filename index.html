@@ -5,79 +5,95 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tim Sukamtoh</title>
+  <link rel="icon" href="#" class="uil uil-keyboard">
+  <title>Tim Sukamtoh | Full-Stack Developer</title>
   <link rel="stylesheet" href="./static/styles.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
 </head>
 
 <body>
-  <header>
-    <nav class="header">
-      <h1 class="label"><a href="#">Home</a></h1>
-      <ul class="tabs-group">
-        <a class="link" href="#about">About</a>
-        <a class="link"
-          href="./static/Tim Sukamtoh Resume.pdf"
-          target="_blank">Resume
+  <div id="root">
+    <header class="header">
+      <nav class="navigation">
+        <h1 class="label"><a href="#">Timothy Sukamtoh</a></h1>
+        <ul class="tabs-group">
+          <a class="link" href="#about">About</a>
+          <a class="link" href="./static/Tim Sukamtoh Resume.pdf" target="_blank">Resume</a>
+          <a class="link" href="#projects">Projects</a>
+          <a class="link" href="#links">Info</a>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <section id="home" class="section home">
+        <div class="hero-main">
+          <div class="hero-text">
+            <h1 class="hero-title">Full-Stack Developer</h1>
+            <p>Hello, I'm Timothy Sukamtoh. A tech-enthusiast based in Southern California. 📍</p>
+            <div class="socials">
+              <a href="https://www.linkedin.com/in/timothy-sukamtoh/" target="_blank" class="social-icon">
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a href="https://github.com/timsukamtoh" target="_blank" class="social-icon">
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+          <img src="./Professional.jpg" class="hero-img"></img>
+        </div>
+      </section>
+      <section id="about" class="section home">
+
+        <p class="info">
+          Born and raised in California. UC Berkeley Alumni with a BS in Bioengineering.
+          Currently pivoting careers into software engineering.
+          <br /><br />
+          I am currently a student at software engineering bootcamp, Rithm.
+          I have had exposure to algorithmic programming through college courses.
+          Additionally, during my previous occupation as an Integration Engineer at Epic Systems,
+          I worked with SQL to generate internal reports to allow other engineers
+          to better track submission of feedback.
+          <br /><br />
+          Some of my hobbies include weight-training, snowboarding, trading, and golfing.
+        </p>
+      </section>
+      <section id="projects" class="project-grid">
+        <a class="project-card" href="https://timtoh168-jobly-frontend.surge.sh/" target="_blank">
+          <h2>Jobly App</h2>
+          <p>Technologies: PostgreSQL, Node.js, Express.js, React.js, CSS</p>
         </a>
-        <a class="link" href="#projects">Projects</a>
-        <a class="link" href="#links">Info</a>
-      </ul>
-    </nav>
-  </header>
-  <div class="main">
-    <div class="title-card" id="home">
-      <div class="title"><b>Hi! I'm Timothy Sukamtoh</b></div>
-      <div class="info">Full stack developer based in southern California.</div>
+        <a class="project-card" href="https://github.com/timsukamtoh/sharebnb-frontend" target="_blank">
+          <h2>ShareBnB App</h2>
+          <p>Technologies: AWS S3, PostgreSQL, Python, Flask, React.js, CSS</p>
+        </a>
+      </section>
+      <section id="links" class="info-card">
+        <p class="info">Github: <a href="https://github.com/timsukamtoh" target="_blank">timsukamtoh</a></p>
+        <p class="info">LinkedIn: <a href="https://www.linkedin.com/in/timothy-sukamtoh-605733163/"
+            target="_blank">Timothy Sukamtoh</a></p>
+        <p class="info">Phone: (626) 258-9686</p>
+        <p class="info">Email: timothysukamtoh@gmail.com</p>
+      </section>
+      <!-- <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul> -->
     </div>
-    <div class="info-card" id="about">
-      <img src="./Professional.jpg" class="headshot"></img>
-      <p class="info">
-        Born and raised in California. UC Berkeley Alumni with a BS in Bioengineering.
-        Currently pivoting careers into software engineering.
-        <br /><br />
-        I am currently a student at software engineering bootcamp, Rithm.
-        I have had exposure to algorithmic programming through college courses.
-        Additionally, during my previous occupation as an Integration Engineer at Epic Systems,
-        I worked with SQL to generate internal reports to allow other engineers
-        to better track submission of feedback.
-        <br /><br />
-        Some of my hobbies include weight-training, snowboarding, trading, and golfing.
-      </p>
-    </div>
-    <div class="project-grid" id="projects">
-      <a class="project-card" href="https://timtoh168-jobly-frontend.surge.sh/" target="_blank">
-        <h2>Jobly App</h2>
-        <p>Technologies: PostgreSQL, Node.js, Express.js, React.js, CSS</p>
-      </a>
-      <a class="project-card" href="https://github.com/timsukamtoh/sharebnb-frontend" target="_blank">
-        <h2>ShareBnB App</h2>
-        <p>Technologies: AWS S3, PostgreSQL, Python, Flask, React.js, CSS</p>
-      </a>
-    </div>
-    <div class="info-card" id="links">
-      <p class="info">Github: <a href="https://github.com/timsukamtoh" target="_blank">timsukamtoh</a></p>
-      <p class="info">LinkedIn: <a href="https://www.linkedin.com/in/timothy-sukamtoh-605733163/" target="_blank">Timothy Sukamtoh</a></p>
-      <p class="info">Phone: (626) 258-9686</p>
-      <p class="info">Email: timothysukamtoh@gmail.com</p>
-    </div>
-    <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+    <footer class="footer">
+      <p>Copyright &copy; 2023 timsukamtoh</p>
+    </footer>
   </div>
-  <footer class="footer">
-    <p>Copyright &copy; 2023 timsukamtoh</p>
-  </footer>
 </body>
 
 </html>
