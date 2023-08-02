@@ -116,7 +116,7 @@
 		flex-basis: 0;
 		background: $white;
 		@include transition(all,.3s);
-		
+
 		&-header {
 			.pricing-card-icon {
 				width: 70px;
@@ -127,7 +127,7 @@
 		&-footer {
 			margin: 15px 0;
 			span {
-				font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300)));	
+				font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300)));
 				font-weight: 600;
 				opacity: .8;
 
@@ -135,15 +135,15 @@
 					position: relative;
 					right: -6px;
 					top: -6px;
-					font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1300 - 300)));	
+					font-size: calc(15px + (25 - 15) * ((100vw - 300px) / (1300 - 300)));
 				}
 			}
 		}
 
 		&-title {
 			margin-bottom: 15px;
-			font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300)));	
-						
+			font-size: calc(18px + (35 - 18) * ((100vw - 300px) / (1300 - 300)));
+
 		}
 
 		&-list {
@@ -207,7 +207,7 @@
 		padding: 4px;
 		width: 90px;
 		height: 90px;
-		border-radius: 50%;	
+		border-radius: 50%;
 	}
 
 	&-body {
@@ -220,7 +220,7 @@
 
 	&-title {
 		margin-top: 20px;
-		font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1300 - 300)));				
+		font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1300 - 300)));
 	}
 }
 
@@ -280,13 +280,13 @@
 		font-size: 13px;
 		i {
 			position: relative;
-			top: 1px;				
+			top: 1px;
 		}
 	}
 }
 @include media-breakpoint-down (md) {
 	.blog-card {
-		flex-direction: column;		
+		flex-direction: column;
 
 		.blog-card-header {
 			width: 100%;

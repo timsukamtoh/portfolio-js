@@ -13195,7 +13195,6 @@ pre .code {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url(../imgs/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13207,8 +13206,8 @@ pre .code {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
-  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 50%, rgba(105, 90, 166, 0.5) 100%);
+  background-image: linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 50%, rgba(105, 90, 166, 0.5) 100%);
   z-index: 1;
 }
 
@@ -13240,9 +13239,10 @@ pre .code {
 .header .header-content .header-subtitle {
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
-  opacity: .8;
+  opacity: 1;
   margin-top: -10px;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 
 .header .header-content .btn {
