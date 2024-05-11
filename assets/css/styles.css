@@ -12312,6 +12312,10 @@ p {
   object-fit: cover;
 }
 
+.top-img {
+  object-position: top;
+}
+
 .portfolio-card .portfolio-card-overlay {
   position: absolute;
   top: 50%;
